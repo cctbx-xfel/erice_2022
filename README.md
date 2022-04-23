@@ -12,3 +12,26 @@ linux and macOS by typing
 ```
 ./cctbx.xfel-2022.4.23-<platform>-<architecture>.sh -b -p <prefix>
 ```
+Then add the `bin` directory to your path with
+```
+export PATH=<prefix>/bin:${PATH}
+```
+or
+```
+setenv PATH <prefix>/bin:${PATH}
+```
+
+### Juptyer Notebook
+Once the software is installed and your path updated, you can start
+Jupyter lab with
+```
+jupyter lab
+```
+
+### Advanced usage
+The installed software is essentially a `conda` environment, so if you
+have `conda` installed, you can activate the environment with
+```
+conda activate <prefix>
+```
+Then you can modify or add additional dependencies.
