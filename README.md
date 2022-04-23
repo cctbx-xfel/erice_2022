@@ -12,11 +12,11 @@ linux and macOS by typing
 ```
 ./cctbx.xfel-2022.4.23-<platform>-<architecture>.sh -b -p <prefix>
 ```
-Then add the `bin` directory to your path with
+Then add the `bin` directory to your path in `bash` with
 ```
 export PATH=<prefix>/bin:${PATH}
 ```
-or
+or in `csh` with
 ```
 setenv PATH <prefix>/bin:${PATH}
 ```
@@ -28,10 +28,10 @@ Jupyter lab with
 jupyter lab
 ```
 
-### Advanced usage
+### Advanced Usage
 The installed software is essentially a `conda` environment, so if you
 have `conda` installed, you can activate the environment with
 ```
 conda activate <prefix>
 ```
-Then you can modify or add additional dependencies.
+Then you can modify or add dependencies.
