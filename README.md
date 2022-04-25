@@ -3,14 +3,14 @@
 
 This repository holds the software for the tutorials used during the
 2022 International School of Crystallography held in Erice, Italy on
-the topic of Diffuse Scattering: The Crystallography of Dynamics, Defects,
-and Disorder.
+the topic of [Diffuse Scattering: The Crystallography of Dynamics, Defects,
+and Disorder](https://crystalerice.org/2022/).
 
 ### Installation
-There are installers for each platform. You can run the installer on
+There are installers for each platform (Windows will be coming). You can run the installer on
 linux and macOS by typing
 ```
-./cctbx.xfel-2022.4.23-<platform>-<architecture>.sh -b -p <prefix>
+./cctbx.xfel-2022.4.25-<platform>-<architecture>.sh -b -p <prefix>
 ```
 Then add the `bin` directory to your path in `bash` with
 ```
