@@ -10,6 +10,7 @@ and Disorder](https://crystalerice.org/2022/).
 There are installers for each platform (Windows will be coming). You can run the installer on
 linux and macOS by typing
 ```
+chmod u+x cctbx.xfel-2022.4.25-<platform>-<architecture>.sh
 ./cctbx.xfel-2022.4.25-<platform>-<architecture>.sh -b -p <prefix>
 ```
 Then add the `bin` directory to your path in `bash` with
@@ -32,6 +33,6 @@ jupyter lab
 The installed software is essentially a `conda` environment, so if you
 have `conda` installed, you can activate the environment with
 ```
-conda activate <prefix>
+conda activate <prefix>/
 ```
 Then you can modify or add dependencies.
