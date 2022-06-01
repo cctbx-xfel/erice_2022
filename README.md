@@ -29,6 +29,10 @@ set PATH=<installation path>\Library\bin;<installation path>\Scripts;<installati
 By default, the `<installation path>` is `C:\Users\<user name>\cctbx.xfel`.
 The commands exist in 3 locations which is why 3 directories are added to the `%PATH%`.
 
+### Installer Notes
+The installers for Apple Silcon (`MacOSX-arm64`) and Windows do not have
+dependencies for molecular dynamics.
+
 ### Juptyer Notebook
 Once the software is installed and your path updated, you can start
 Jupyter lab with
