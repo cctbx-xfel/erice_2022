@@ -1,3 +1,10 @@
+# Diffraction Simulator
+## Google Colab notebook associated with Methods in Enzymology Volume 687
+content in progress
+
+## Standalone viewer
+content in progress
+
 # Erice 2022 International School of Crystallography, 57th Course
 ## Diffuse Scattering: The Crystallography of Dynamics, Defects, and Disorder
 
