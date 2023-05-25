@@ -3,6 +3,8 @@
 ## Standalone viewer associated with Methods in Enzymology Volume 687
 The current best option for running the simulation viewer is to do a standard installation of cctbx.xfel for Erice and run the viewer from the command line with `simtbx.sim_view`. Please install the [2023 release](https://github.com/cctbx-xfel/erice_2022/releases/tag/v2023.5.22) for a GPU-accelerated build with NVIDIA architecture. If you want a developer build and access to all the code, there are instructions to build from source in the Readme for the [cctbx project](https://github.com/cctbx/cctbx_project). Be sure to select the `xfel` builder if you follow those instructions.
 
+A Readme specific to the simulation viewer can be found on the [sim_erice](https://github.com/dermen/sim_erice#readme) page, including explanations of the controls and the tunable parameters. You can also launch the viewer with the `-h` or `--help` flag to see the help message.
+
 ## Google Colab notebook
 *Due to mismatched CUDA driver versions between Google Colab and conda, the notebook is not currently functional. Please check back.*
 
